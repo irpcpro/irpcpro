@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 416 508">
+  <defs>
+    <clipPath id="clip-iPhone_14_Pro_Max_1">
+      <rect width="416" height="508"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_14_Pro_Max_1" data-name="iPhone 14 Pro Max – 1" clip-path="url(#clip-iPhone_14_Pro_Max_1)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-61 -178)">
+      <path id="Path_1" data-name="Path 1" d="M622.95,237.807H351.756L228.221,361.341V725.913s-2.084,8.4,7.862,8.4H625.319s7.97,1.292,7.97-7.539v-481S635.675,237.807,622.95,237.807Z" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_2" data-name="Path 2" d="M351.109,239.745v79.7s2.369,35.757-38.127,41.358h-17.8c-27.846,0-78.483-1.292-64.266,0C230.914,360.8,352.833,236.514,351.109,239.745Z" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_3" data-name="Path 3" d="M496.766,282.266c-9.241-23.242,32.483,78.407,32.483,78.407s7.281,10.081,13.721,0c3.9-10.6,37.8-93.529,31.083-78.407-.062.157-.031.078,0,0" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_4" data-name="Path 4" d="M472.813,286.7c16.371,10.339-6.678-6.031-25.849-4.954s-40.281,15.294-39.419,43.081,17.017,41.788,39.419,42.219,43.081-15.509,28.218-6.247" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_5" data-name="Path 5" d="M421.438,408.277s-47.6-.28-43.4,57.965c-4.48.56-11.761-.28-9.241,9.241s2.73,17.852,6.161,24.922c1.009,1.652,6.161-1.68,7.561,3.36s11.761,49,46.484,47.324c33.6.56,46.2-46.2,46.2-46.2s-.84-5.32,5.6-4.48c2.52,0,6.441-29.683,6.441-29.683s1.4-3.92-6.441-4.48c-5.065-.362,4.332-19.979-9.745-37.047-5.152-6.249-13.838-13.585-28.031-17.838C432.835,407.717,429.679,408.928,421.438,408.277Z" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_6" data-name="Path 6" d="M396.236,566.771s-49,17.922-60.205,33.043-15.4,68.886-15.681,78.687,3.64,14.561,13.161,15.681,129.092,10.081,194.618,0c7.281-4.2,11.481-5.32,10.361-19.322s-5.6-64.966-18.762-78.407-56.285-29.683-56.285-29.683-4.76-3.92-12.6,2.24-10.641,9.521-21,9.521-23.242-9.521-23.242-9.521S402.956,565.931,396.236,566.771Z" transform="translate(-162 -54)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_7" data-name="Path 7" d="M462.882,568.731V696.7" transform="translate(-162 -54.485)" fill="none" stroke="#fff" stroke-width="10"/>
+      <path id="Path_8" data-name="Path 8" d="M462.882,568.731V696.7" transform="translate(-231 -54.485)" fill="none" stroke="#fff" stroke-width="10"/>
+    </g>
+  </g>
+</svg>

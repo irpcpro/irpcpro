@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-fanum-regular.eot?#') format('eot'),
+    url('../fonts/dana-fanum-regular.woff') format('woff'),
+    url('../fonts/dana-fanum-regular.woff2') format('woff2'),
+    url('../fonts/dana-fanum-regular.ttf') format('truetype'),
+    url('../fonts/dana-fanum-regular.svg#svgFontName') format('svg');
+}
+
+/*Common*/
+* {
+    direction: ltr;
+}
+
+html, body {
+    max-height: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("../images/bg.png") no-repeat top center/cover #090909;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.number {
+    font-family: Arial, Tahoma, serif !important;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.font-dana {
+    font-family: "Dana", Arial, Tahoma, serif;
+}
+
+.d-flex-row-space-between {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-direction: row;
+    -o-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.d-flex-row-center {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -o-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.d-flex-column-start {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    justify-content: start;
+    -o-justify-content: start;
+    -ms-justify-content: start;
+    -moz-justify-content: start;
+    flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.d-flex-row-left {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    justify-content: left;
+    -o-justify-content: left;
+    -ms-justify-content: left;
+    -moz-justify-content: left;
+    flex-direction: row;
+    -o-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+/*Header*/
+header {
+    padding: 30px 0 0;
+}
+
+header .header-bg .left,
+header .header-bg .left {
+    direction: ltr;
+    text-align: left;
+}
+
+header .header-logo-irpcpro {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+header .header-logo-text {
+    color: #fff;
+    font-size: 1rem;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+
+header .header-logo-text span {
+    letter-spacing: 1px;
+    color: #089CDA;
+    font-weight: 900;
+}
+
+header .header-resume-icon {
+    width: 39px;
+    height: 42px;
+    margin-top: 1px;
+    float: right;
+    cursor: pointer;
+}
+
+header .header-resume-text {
+    float: right;
+    color: #fff;
+    font-size: 1rem;
+    margin: 12px 10px 0 0;
+    cursor: pointer;
+}
+
+/*Context*/
+#context {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#context > div {
+    width: 40%;
+}
+
+#context > div.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#context > div.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+#context .box-content {
+    position: relative;
+}
+
+#context .image-lines {
+    background: url("../images/lines.png") no-repeat 0 center;
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#context .box-content * {
+    text-align: left;
+    direction: ltr;
+}
+
+#context .bg-name {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+#context .iam {
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+#context .full-name {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-left: 30px;
+}
+
+#context .bg-full-stack {
+    position: relative;
+    z-index: 2;
+}
+
+#context .bg-full-stack .text {
+    float: left;
+    background: url('../images/image-text.png') repeat center center/100%;
+    background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 7.5rem;
+    font-weight: bold;
+    letter-spacing: -5px;
+    padding-top: 27px;
+}
+
+#context .bg-php-developer {
+    position: relative;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+#context .code-php {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#context .skill {
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 0 15px;
+}
+
+#context .bg-icons {
+    position: relative;
+    list-style: none;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+#context .bg-icons .icon {
+    margin: 10px 20px;
+}
+
+#context .bg-icons .icon img {
+    width: 20px;
+    height: 20px;
+}
+
+#context .bg-icons .icon.icon-github {
+    margin-left: 0 !important;
+}
+
+#context .image-face {
+    position: relative;
+    margin-right: -150px;
+    margin-top: 100px;
+}
+
+/*Footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    color: #666567;
+    text-align: center;
+}
