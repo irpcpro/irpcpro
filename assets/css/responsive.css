@@ -36,3 +36,100 @@
     }
 
 }
+@media screen and (max-width: 680px) {
+    #context > div.right {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        -o-display: flex;
+        -ms-display: flex;
+        -moz-display: flex;
+        -webkit-display: flex;
+        justify-content: center;
+        -o-justify-content: center;
+        -ms-justify-content: center;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    #context > div.right img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        left: 0;
+        filter: blur(15px);
+    }
+    #context {
+        display: block;
+    }
+    #context > div.left {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        -o-display: flex;
+        -ms-display: flex;
+        -moz-display: flex;
+        -webkit-display: flex;
+        justify-content: center;
+        -o-justify-content: center;
+        -ms-justify-content: center;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    #context .box-content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        position: relative;
+        z-index: 2;
+    }
+
+}
+@media screen and (max-width: 390px) {
+    header .header-logo-text {
+        font-size: 0.8rem;
+        margin: 14px 0 0 10px;
+    }
+    header .header-logo-irpcpro {
+        width: 35px;
+        height: 35px;
+    }
+    header .header-resume-icon {
+        width: 31px;
+        height: 34px;
+    }
+    header .header-resume-text {
+        font-size: 0.8rem;
+        margin: 13px 10px 0 0;
+    }
+
+}
