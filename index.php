@@ -12,6 +12,7 @@
         <!-- STYLESHEETS -->
         <link rel="stylesheet" href="assets/css/css-reset.css?ver=<?= APP_VERSION ?>" type="text/css" media="all">
         <link rel="stylesheet" href="assets/css/styles.css?ver=<?= APP_VERSION ?>" type="text/css" media="all">
+        <link rel="stylesheet" href="assets/css/responsive.css?ver=<?= APP_VERSION ?>" type="text/css" media="all">
     </head>
     <body>
         <?php include './includes/header.php'; ?>
