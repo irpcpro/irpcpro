@@ -1,6 +1,6 @@
 <?php
 
-const APP_VERSION = '2.0.0';
+const APP_VERSION = '2.0.1';
 
 const SOCIAL_GITHUB = 'https://github.com/irpcpro';
 const SOCIAL_LINKEDIN = 'https://www.linkedin.com/in/irpcpro/';
