@@ -8,10 +8,12 @@
                 </div>
             </div>
             <div class="right">
-                <img class="header-resume-icon" src="../assets/images/icon-resume.svg" alt="resume" />
-                <div class="header-resume-text font-dana">
-                    Dl Resume
-                </div>
+                <a href="./../Ali-Mohammad-Kargar-Resume-6-1.pdf" title="Download Resume" download>
+                    <img class="header-resume-icon" src="../assets/images/icon-resume.svg" alt="resume" />
+                    <div class="header-resume-text font-dana">
+                        Dl Resume
+                    </div>
+                </a>
             </div>
         </div>
     </div>
